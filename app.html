@@ -38,6 +38,7 @@
   <script src="scripts/matrices.js"></script>
   <script src="scripts/raphael.js"></script>
   <script src="scripts/freetransform.js"></script>
+ 
 
   <script type="text/javascript" src="scripts/jqueryui.js"></script>
   <script type="text/javascript" src="scripts/bootstrap/js/bootstrap-button.js"></script>
@@ -75,19 +76,7 @@
       console.log(editor.getValue())
     }
     </script>
-    <script type="text/javascript">
-
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-30285438-1']);
-        _gaq.push(['_trackPageview']);
-
-        (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
+   
   </head>
   <body id="mybody">
    <div class="navbar headerbg" id="topnavbar">
@@ -214,11 +203,7 @@
           </canvas>
       
         </div>
-      </li>
-          <ul class="nav pull-right">
-            
-
-          </ul>
+      </li>          
         </div><!-- /.nav-collapse -->
       </div>
   </div><!-- /navbar -->
@@ -423,7 +408,7 @@
      
         <span id="play">
             <span class="rotate label label-info" id="spanrotate">rotate</span>
-            <!--<span class="scale">scale</span>-->
+            <span class="scale">scale</span>
             <span class="skewx label label-info" id="spanskewx">skewx</span>
             <span class="skewy label label-info" id="spanskewy">skewy</span>
 
